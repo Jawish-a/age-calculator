@@ -12,7 +12,7 @@ def check_birthdate(year, month, day):
 def calculate_age(year, month, day):
     # write code here
 	now = datetime.now()
-	age = now.year - year
+	age = now.year - year 
 	print("You are " + str(age) + " years old.")
 
 def main():
