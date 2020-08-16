@@ -23,7 +23,7 @@ def main():
 	if check_birthdate(year, month, day):
 		calculate_age(year, month, day)
 	else:
-		print("the birthdate is invalid.")
+		print("the birthdate is invalid .")
 
 
 if __name__ == '__main__':
